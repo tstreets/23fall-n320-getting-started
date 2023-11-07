@@ -6,22 +6,6 @@ import ListItem from '@/components/ListItem';
 export default function Home() {
   return (
     <>
-      <nav className={styles.mainNav}>
-        <ul>
-          <li>
-            <a href='/'>Home</a>
-          </li>
-          <li>
-            <a href='/'>Places</a>
-          </li>
-          <li>
-            <a href='/'>About</a>
-          </li>
-          <li>
-            <a href='/'>Contact</a>
-          </li>
-        </ul>
-      </nav>
       <Hero heroImage='/hero-image.jpg' height='400px' />
       <div className={styles.list}>
         <ListItem
